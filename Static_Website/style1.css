@@ -1,0 +1,44 @@
+
+@media (min-width:500px){
+h1::before{
+content:"Welcome to page2";}
+h1{text-align:center;}
+body{
+	background-color:lightgray;
+}
+h3{
+	font-family:Calibri;
+	font-size:20px;
+	color:blue;
+	bolder:2px dotted red;
+}
+.center{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	width:30%
+}
+p{
+	font-family:simsun;
+	font-size:18px;
+	color:blue;
+	
+	
+}
+
+table{
+border:2px solid black;
+margin:30px;
+padding:10px;
+border-collapse:collapse;
+width:50%;
+}
+th,td{
+border:1px solid black;
+padding:5px;
+text-align:center;}
+td{
+border: 1px solid black;}
+th{
+background-color:lightgray;
+}

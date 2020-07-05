@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<header><title>CS50_Project0_page3</title></header>
+<meta name="viewport" content="width=device-width,
+ initial-scale=1.0">
+ <head>
+ <link rel="stylesheet" href="style1.css">
+ 
+ </head>
+
+<style>
+	h2{
+	font-size:26px;
+		font-color:red;
+		border: 3px solid blue;
+	}
+#top 
+{color:red;
+font-size:30px;}
+#middle{
+
+font-size:20px;}
+.name{color:blue;
+font-size:10;
+font-weight:bold}
+div{
+margin:30px;
+padding:20px;
+font-family:Simsun,sans-serif;
+border:3px dotted blue;
+
+}
+
+@media print{.screen-only{
+display:none;}}
+p{
+margin:30px;
+padding:20px;
+font-family:Arial,sans-serif;
+font-size:16px;
+
+}
+
+p::selection {
+color: red;
+background-color: yellow;
+            }
+h3{
+background-color:blue;
+margin:30px;
+padding:10px
+}
+.highlight{color:red;
+font-size:12;
+font-weight:bold}
+ol>li{
+color:red;}
+</style>
+<h1>Welcome to project0 page3!</h1>
+<body>
+	<div id="top">
+	This a portal is my first html project This project is being submitted as an assignment of CS50 course.This is the top div. should have a larger font than the div below.
+this is the <span class="name">top</span>  of my webpage
+we have used css <span class="name">class</span> element in this part.
+</div>	
+
+<div id="middle" >
+this is the <span class="name">middle</span>  of my webpage
+this is the middle section of the div. it should have a smaler font than the top div
+</div>
+
+<ol>
+            <li>first item</li>
+            <li>second item</li>
+            <ul>
+                <li>sub-ul: item 1</li>
+                <li>sub-ul item 2</li>
+            </ul>
+            <li>lst item</li>
+        </ol>
+<div>
+                <input name="name" type="text" placeholder="Name">
+                <input name="password" type="password" placeholder="Password">
+				<button>SUBMIT</button>
+</div>
+<div>
+<h4>What is your favourite color?</h4>
+<input name="color" type="radio" value="red">Red
+<input name="color" type="radio" value="green">Green
+<input name="color" type="radio" value="others">Others
+</div>
+
+
+<div id="state_list">
+<input name="State" list="state" placeholder="pls type state name">
+
+
+<datalist id="state">
+<option value="Assam">
+<option value="Maharastra">
+<option value="Delhi">
+<option value="Bihar">
+<option value="Karnataka">
+<option value="West-bengal">
+<option value="Jammu & Kashmir">
+</datalist>
+
+</div>
+
+</form>
+
+<p>This is one paragraph</p>
+<p>This is one more paragraph. If you are trying to take a print, you should not see any paragraph below.
+@media means create a media query then what query, print. and then for the class .screen-only set display:none</p>
+<p class="screen-only">This paragraph will not be displayed when taking a printout.For reference go to the style section and see what style has been set for class <span class="highlight">"screen-only"</span></p>
+
+ <ol>
+<li><a href="project0_page_1.html">Click here to go to page1...</a></li>
+<li><a href="project0_page_2.html">Click here to go to page2...</a></li>
+<li><a href="project0_page_4.html">Click here to go to page4...</a></li>
+<li><a href="project0_page_5.html">Click here to go to page5...</a></li>
+</ol>
+</body>
+</html>

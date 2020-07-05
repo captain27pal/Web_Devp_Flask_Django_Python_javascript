@@ -1,0 +1,27 @@
+$color: red;
+
+ul {
+    font-size: 14px;
+    color: $color;
+}
+
+ol {
+    font-size: 18px;
+    color: $color;
+}
+
+%common_msg{
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  border: 1px solid black;
+  padding: 20px;
+  margin: 20px; }
+
+.inh1{
+@extend %common_msg;
+  background-color: green; }
+
+.inh2 {
+@extend % common_msg;
+  background-color: orange; }
